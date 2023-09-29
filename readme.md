@@ -9,7 +9,7 @@ Erklären Sie hier, wie man `pre-commit` installiert.
    ```
 2. Im nächsten Schritt geht es darum, ein Script in .git/hooks/ zu erstellen:
    ```
-   pre-commit install
+   pre-commit install --hook-type pre-commit --hook-type pre-push
    ```
 3. Zuletzt kann getestet werden, ob alles lauft:
    ```
